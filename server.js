@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // Activate the server on 8000 
-app.listen(8000, () => {
+app.listen(3000, () => {
     console.log("Server Started at port no. 8000");
 });
 
@@ -17,4 +17,4 @@ app.post('api/cars', (req, res) => {
     console.log(brand);
     console.log("Car submitted Successfully");
 })
-console.log("Nothing will added today")
+console.log("Nothing will added today")``
